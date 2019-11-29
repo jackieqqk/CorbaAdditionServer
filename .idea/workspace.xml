@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa32e1a-ba4a-4c88-910c-1a9a0463b479" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/AdditionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/AdditionHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/AdditionOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/AdditionPOA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/_AdditionStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/Addition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionPOA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/_AdditionStub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/invest/AdditionObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/invest/AdditionObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/invest/StartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/invest/StartServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -150,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575030641140</updated>
-      <workItem from="1575030642557" duration="3705000" />
+      <workItem from="1575030642557" duration="4098000" />
     </task>
     <servers />
   </component>
