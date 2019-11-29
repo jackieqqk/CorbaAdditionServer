@@ -2,7 +2,7 @@ package com.invest;
 
 
 import AdditionApp.AdditionPOA;
-import com.sun.corba.ee.internal.iiop.ORB;
+import org.omg.CORBA.ORB;
 
 
 public class AdditionObj extends AdditionPOA {
@@ -20,6 +20,6 @@ public class AdditionObj extends AdditionPOA {
     public void shutdown(){
         orb.shutdown(false);
     }
-    
+
 
 }

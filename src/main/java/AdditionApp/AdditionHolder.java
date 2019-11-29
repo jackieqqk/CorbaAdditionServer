@@ -7,7 +7,7 @@ package AdditionApp;
 * Friday, November 29, 2019 9:55:08 PM JST
 */
 
-public final class AdditionHolder implements org.omg.CORBA.portable.Streamable
+public final class AdditionHolder /*implements org.omg.CORBA.portable.Streamable*/
 {
   public AdditionApp.Addition value = null;
 

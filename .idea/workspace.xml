@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa32e1a-ba4a-4c88-910c-1a9a0463b479" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etc/script/idl_start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionPOA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/_AdditionStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/AdditionObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/invest/StartServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/invest/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/invest/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/script/idl_start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/etc/script/idl_start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdditionApp/AdditionHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/invest/AdditionObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/invest/AdditionObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/invest/AppMain.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,9 +71,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23793103" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -101,7 +93,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StartServer">
+    <configuration name="StartServer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.invest.StartServer" />
+      <module name="CorbaAdditionServer.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CorbaAdditionServer [clean build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,6 +123,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.StartServer" />
+      <item itemvalue="Gradle.CorbaAdditionServer [clean build]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CorbaAdditionServer [clean build]" />
@@ -138,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575030641140</updated>
-      <workItem from="1575030642557" duration="1829000" />
+      <workItem from="1575030642557" duration="3231000" />
     </task>
     <servers />
   </component>
