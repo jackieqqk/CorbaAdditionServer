@@ -1,4 +1,4 @@
-package AdditionApp;
+package com.invest;
 
 /**
 * AdditionApp/AdditionHolder.java .
@@ -7,32 +7,33 @@ package AdditionApp;
 * Friday, November 29, 2019 9:55:08 PM JST
 */
 
-public final class AdditionHolder /*implements org.omg.CORBA.portable.Streamable*/
+
+public final class AdditionHolder implements org.omg.CORBA.portable.Streamable
 {
-  public AdditionApp.Addition value = null;
+  public Addition value = null;
 
   public AdditionHolder ()
   {
   }
 
-  public AdditionHolder (AdditionApp.Addition initialValue)
+  public AdditionHolder (Addition initialValue)
   {
     value = initialValue;
   }
 
   public void _read (org.omg.CORBA.portable.InputStream i)
   {
-    value = AdditionApp.AdditionHelper.read (i);
+    value = AdditionHelper.read (i);
   }
 
   public void _write (org.omg.CORBA.portable.OutputStream o)
   {
-    AdditionApp.AdditionHelper.write (o, value);
+    AdditionHelper.write (o, value);
   }
 
   public org.omg.CORBA.TypeCode _type ()
   {
-    return AdditionApp.AdditionHelper.type ();
+    return AdditionHelper.type ();
   }
 
 }

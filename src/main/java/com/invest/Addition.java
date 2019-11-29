@@ -1,4 +1,4 @@
-package AdditionApp;
+package com.invest;
 
 /**
 * AdditionApp/Addition.java .

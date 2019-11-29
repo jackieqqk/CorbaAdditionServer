@@ -1,4 +1,4 @@
-package AdditionApp;
+package com.invest;
 
 
 /**
@@ -9,7 +9,7 @@ package AdditionApp;
 */
 
 public abstract class AdditionPOA extends org.omg.PortableServer.Servant
- implements AdditionApp.AdditionOperations, org.omg.CORBA.portable.InvokeHandler
+ implements AdditionOperations, org.omg.CORBA.portable.InvokeHandler
 {
 
   // Constructors

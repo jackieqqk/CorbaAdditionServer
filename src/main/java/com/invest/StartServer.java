@@ -1,7 +1,6 @@
 package com.invest;
 
-import AdditionApp.Addition;
-import AdditionApp.AdditionHelper;
+
 import org.omg.CORBA.ORB;
 import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NamingContextExt;

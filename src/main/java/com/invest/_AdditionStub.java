@@ -1,4 +1,4 @@
-package AdditionApp;
+package com.invest;
 
 
 /**
@@ -8,7 +8,7 @@ package AdditionApp;
 * Friday, November 29, 2019 9:55:08 PM JST
 */
 
-public class _AdditionStub extends org.omg.CORBA.portable.ObjectImpl implements AdditionApp.Addition
+public class _AdditionStub extends org.omg.CORBA.portable.ObjectImpl implements Addition
 {
 
   public int add (int a, int b)
